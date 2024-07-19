@@ -1,0 +1,14 @@
+<html>
+	<head>
+		<title>Weather History</title>
+	</head>
+	<body>
+		<h1>Search History</h1>
+		<ul>
+			{% for query in queries %}
+			<li>{{ query.city }} - {{ query.count }} times</li>
+			{% endfor %}
+		</ul>
+		<a href="/">Back to Search</a>
+	</body>
+</html>

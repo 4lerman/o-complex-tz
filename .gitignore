@@ -1,0 +1,47 @@
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore virtual environment directories
+venv/
+env/
+
+# Ignore local environment variables
+.env
+
+# Ignore Django database files
+*.sqlite3
+
+# Ignore any logs or temp files
+*.log
+tmp/
+
+# Ignore node_modules if you have any frontend code
+node_modules/
+
+# Ignore compiled assets
+/static/
+
+# Ignore coverage reports
+htmlcov/
+.coverage
+*.cover
+
+# Ignore test and coverage results
+coverage.xml
+nosetests.xml
+test*.xml
+.tox
+.pytest_cache/
+
+# Ignore IDE files
+.vscode/
+.idea/
+
+# Ignore Dockerfile and docker-compose files (optional)
+Dockerfile
+docker-compose.yml
+
+# Ignore secret files
+secrets.json
